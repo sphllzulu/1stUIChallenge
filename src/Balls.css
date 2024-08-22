@@ -1,0 +1,76 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+    font-family:Outfit;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .bar {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .label {
+    width: 150px;
+    text-align: right;
+    font-size: 1em;
+  }
+  
+  .progress1 {
+    display: flex;
+    align-items: center;
+    position: relative;
+    height: 40px;
+    border-radius: 20px;
+    flex-grow: 1;
+  }
+  .progress2 {
+    display: flex;
+    align-items: center;
+    position: relative;
+    height: 40px;
+    border-radius: 20px;
+    flex-grow: 0;
+  }
+  .progress3 {
+    display: flex;
+    align-items: center;
+    position: relative;
+    height: 40px;
+    border-radius: 20px;
+    flex-grow: 0;
+  }
+  
+  .beige {
+    background: linear-gradient(to right, #e0d6c4, #e0d6c4);
+  }
+  
+  .orange {
+    background: linear-gradient(to right, #ff8c00, #ffa500);
+  }
+  
+  .red {
+    background: linear-gradient(to right, #ff4500, #ff6347);
+  }
+  
+  .ball {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    right: 0;
+    transform: translateX(50%);
+  }
+  

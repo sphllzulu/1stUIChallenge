@@ -1,0 +1,135 @@
+.button {
+    padding: 10px 30px;
+    font-size: 1rem;
+    background-color: rgb(106, 90, 205); 
+    color: #fff; 
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    /* width: 200px; */
+    font-family: Outfit;
+  }
+  
+  .button:hover {
+    background-color: rgb(106, 90, 205); 
+  }
+
+  /* Styling the skills balls */
+
+  .skill-bars {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    /* justify-content: end; */
+    padding: 10px ;
+
+
+}
+
+.skill1 {
+    display: flex;
+    justify-content: space-evenly;
+     margin-right: 20px; 
+    
+}
+.skill2 {
+    display: flex;
+    justify-content: space-evenly;
+    /* margin-right: 50px; */
+}
+.skill3 {
+   display: flex;
+   justify-content: space-evenly;
+  
+}
+
+.skill-label {
+    width: 150px; 
+    font-size: 10px;
+    text-align: right;
+    margin-right: 10px;
+    
+}
+
+.skill-bar1 {
+    width: 60px;
+    height: 30px;
+    border-radius: 20px;
+    position: relative;
+    display: flex;
+    justify-content: start;
+    /* align-items: center; */
+    /* margin-left: 30px; */
+}
+.skill-bar2 {
+    width: 100px; 
+    /* margin-left: 10px; */
+    height: 30px;
+    border-radius: 20px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+.skill-bar3 {
+    width: 150px; 
+    height: 30px;
+    border-radius: 20px;
+    position: relative;
+    display: flex;
+    /* justify-content:center ; */
+}
+
+.photoshop {
+    background: #C2B280;
+}
+
+.brand {
+    background: #ff9900; 
+}
+
+.mobile {
+    background: #ff4500; 
+}
+
+.skill-ball1 {
+    width: 40px; 
+    height: 35px;  
+    background: radial-gradient(circle at 30% 30%, lightgray,#C2B280);
+    border-radius: 50%;
+    box-shadow: inset -5px -5px 10px rgba(255, 255, 255, 0.5),
+                inset 5px 5px 10px rgba(0, 0, 0, 0.2),
+                0 0 10px rgba(0, 0, 0, 0.5);
+                position: absolute;
+                right: 30px;
+    
+}
+.skill-ball2 {
+    width: 40px; 
+    height: 35px;  
+    background: radial-gradient(circle at 30% 30%, #ffa500, #ff4500);
+    border-radius: 50%;
+    box-shadow: inset -5px -5px 10px rgba(255, 255, 255, 0.5),
+                inset 5px 5px 10px rgba(0, 0, 0, 0.2),
+                0 0 10px rgba(0, 0, 0, 0.5);
+                position: absolute;
+                right: 70px;
+    
+}
+.skill-ball3 {
+    width: 40px; 
+    height: 35px;  
+    background: radial-gradient(circle at 30% 30%, red, Orange);
+    border-radius: 50%;
+    box-shadow: inset -5px -5px 10px rgba(255, 255, 255, 0.5),
+                inset 5px 5px 10px rgba(0, 0, 0, 0.2),
+                0 0 10px rgba(0, 0, 0, 0.5);
+                position: absolute;
+    
+}
+/* .container-left{
+    display: flex;
+    flex-direction: column;
+    align-self: end;
+    justify-content:space-around;
+} */
