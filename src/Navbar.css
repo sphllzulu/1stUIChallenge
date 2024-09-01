@@ -1,52 +1,83 @@
 .navbar {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    margin: 10px;
-    color: black;
-  }
-  
-  .navbar-logo a {
-    color: black;
-    text-decoration: none;
-    font-size: 1.7rem;
-    font-weight: bold;
-  }
-  
-  .navbar-list {
-    list-style: none;
-    display: flex;
-    gap: 1rem;
-   
-    flex-wrap: wrap;
-  }
-  
-  .navbar-list li a {
-    color: black;
-    text-decoration: none;
-    font-size: 1rem;
-    font-weight: 400;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem;
+      background-color: white;
+      color: black;
+    }
     
-    margin: 10px;
-  }
-  
-  .navbar-button button {
-    padding:10px 30px ;
-    border: none;
-    background-color: rgb(106, 90, 205);
-    color: #fff;
-    cursor: pointer;
-    font-size: 1rem;
-    border-radius: 50px;
-    font-family: Outfit;
-  }
-  
-  .navbar-button button:hover {
-    background-color: rgb(123, 104, 238);
-  }
-
-  .navbar-list li a.active {
+    .navbar-logo a {
+      color: black;
+      text-decoration: none;
+      font-size: 1.7rem;
+    }
     
-    color:black;
-    font-weight: bold;
-  }
+    .navbar-list {
+      display: flex;
+      list-style: none;
+    }
+    
+    .navbar-list li {
+      margin: 0 1rem;
+    }
+    
+    .navbar-list li a {
+      color: black;
+      text-decoration: none;
+      font-size: 1rem;
+      transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out; 
+    }
+    
+    .navbar-list li a:hover {
+      color: white;
+      background-color: rgb(106, 90, 205);
+      padding: 10px 10px;
+      border-radius: 10px; 
+    }
+    
+    .navbar-button button {
+      padding: 0.5rem 1rem;
+      background-color: rgb(106, 90, 205);
+      border-radius: 50px;
+      border: none;
+      color: white;
+      cursor: pointer;
+    }
+    
+    .hamburger {
+      display: none;
+      flex-direction: column;
+      cursor: pointer;
+    }
+    
+    .hamburger .bar {
+      width: 25px;
+      height: 3px;
+      background-color: #fff;
+      margin: 4px 0;
+      transition: 0.4s;
+    }
+    
+    /* Media Query for smaller screens */
+    @media (max-width: 768px) {
+      .navbar-list {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+      }
+    
+      .navbar-list.open {
+        display: flex;
+      }
+    
+      .hamburger {
+        display: flex;
+      }
+    
+      .navbar-button {
+        display: none;
+      }
+    }
+    
