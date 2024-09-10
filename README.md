@@ -53,7 +53,7 @@ To run this project locally, follow these steps:
    ```
 
 5. **Open the project in your browser**:
-   Visit `http://localhost:3000` in your browser to see the mimic project.
+   Visit `http://localhost:5173` in your browser to see the mimic project.
 
 ## Usage
 
@@ -79,10 +79,6 @@ mimic-project/
 ├── README.md
 └── vite.config.js
 ```
-
-## Screenshots
-
-
 
 ## Contributing
 
