@@ -22,6 +22,14 @@ This project is a simple React application created using Vite, where the goal wa
 - Responsive design to ensure the layout adapts to different screen sizes.
 - Clean and maintainable code structure.
 
+## Features
+
+## Features
+
+- Mimic a photo using React components and CSS.
+- Responsive design to ensure the layout adapts to different screen sizes.
+- Clean and maintainable code structure.
+
 ## Technologies Used
 
 - **React**: A JavaScript library for building user interfaces.
