@@ -23,6 +23,7 @@ This project is a simple React application created using Vite, where the goal wa
 - Clean and maintainable code structure.
 
 ## Features
+![ui](https://github.com/user-attachments/assets/6224a614-8c8c-45e8-8970-5a47622c2e36)
 
 ## Features
 
