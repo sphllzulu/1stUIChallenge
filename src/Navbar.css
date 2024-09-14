@@ -1,4 +1,4 @@
-.navbar {
+/* .navbar {
       display: flex;
       justify-content: space-between;
       align-items: center;
@@ -49,18 +49,20 @@
       display: none;
       flex-direction: column;
       cursor: pointer;
+      padding:10px;
+      
     }
     
     .hamburger .bar {
       width: 25px;
       height: 3px;
-      background-color: #fff;
+      background-color: pink;
       margin: 4px 0;
       transition: 0.4s;
     }
     
     /* Media Query for smaller screens */
-    @media (max-width: 768px) {
+    /* @media (max-width: 768px) {
       .navbar-list {
         display: none;
         flex-direction: column;
@@ -80,4 +82,123 @@
         display: none;
       }
     }
-    
+     */ 
+
+
+     /* Navbar Styling */
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #fff;
+  padding: 10px 0;
+ 
+  position: relative;
+}
+
+.navbar-logo a {
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: #333;
+}
+
+.navbar-list {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-list li {
+  margin-left: 20px;
+}
+
+.navbar-list li a {
+  text-decoration: none;
+  font-size: 1rem;
+  color: #333;
+  padding: 5px 10px;
+  transition: color 0.3s ease;
+}
+
+/* Smooth Hover Effect with Purple Color */
+.navbar-list li a:hover {
+  color: purple;
+}
+
+/* Active Link */
+.navbar-list li a.active {
+  color: rgb(106, 90, 205);
+  font-weight: bold;
+}
+
+/* Navbar Button */
+.navbar-button button {
+  background-color: rgb(106, 90, 205);
+  color: #fff;
+  border: none;
+  
+  padding: 8px 15px;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.navbar-button button:hover {
+  background-color: #5e2d86;
+}
+
+/* Hamburger Menu */
+.hamburger {
+  display: none;
+  cursor: pointer;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 21px;
+}
+
+.hamburger .bar {
+  height: 3px;
+  background-color: #333;
+  border-radius: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.hamburger:hover .bar {
+  background-color:rgb(106, 90, 205);
+}
+
+/* Responsive Navbar */
+@media (max-width: 768px) {
+  .navbar-list {
+    display: none;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    background-color: white;
+    flex-direction: column;
+    width: 100%;
+    padding: 20px 0;
+   
+    z-index: 10;
+  }
+
+  .navbar-list.open {
+    display: flex;
+  }
+
+  .navbar-list li {
+    margin-left: 0;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+
+  .navbar-button {
+    display: none;
+  }
+
+  .hamburger {
+    display: flex;
+  }
+}

@@ -127,9 +127,22 @@
                 position: absolute;
     
 }
-/* .container-left{
-    display: flex;
-    flex-direction: column;
-    align-self: end;
-    justify-content:space-around;
-} */
+.container-left{
+    padding:0 40px;
+}
+
+@media (max-width: 480px) {
+    .container-left{
+      width:80%;
+      
+
+    }
+    .container-text{
+        width:80%;
+        padding:0 20px;
+    }
+
+    .container-left{
+        padding:0 40px;
+    }
+}

@@ -3,7 +3,7 @@
     flex-direction: column;
     /* align-items:start;  */
     justify-content:start; 
-   /* padding:0 60px; */
+   padding:0 30px;
    
     /* margin-top: 20px; */
   }
@@ -11,6 +11,7 @@
   .trusted-by {
     display: flex;
     justify-content: start;
+   
 
   }
   
@@ -46,3 +47,17 @@
   
    }
   
+
+   @media (max-width: 480px) {
+    .footer-container{
+      width:80%;
+      padding: 0;
+      margin: 10px;
+    }
+    .companies{
+      gap: 5px;
+    }
+    .trusted-by{
+      padding:0 40px;
+    }
+  }

@@ -6,10 +6,10 @@ const Mainleft = () => {
   return (
     <div className='container-left'>
         <div className='container-text'>
-        <h1 style={{fontSize:'3rem',fontWeight:'600'}}>Stunning <br />Creative Minds.</h1>
-        <p style={{fontSize:'0.6rem',fontWeight:'300'}}>With <b>Minds</b> remote teams can organise projects, manage <br /> shifting properties, and get work done.</p>
-        <button className='button'>Get More<GoArrowUpRight style={{ color: '#fff', fontSize: '1em',marginLeft:'10px'}} /></button>
-        </div>
+  <h1>Stunning <br />Creative Minds.</h1>
+  <p>With <b>Minds</b> remote teams can organise projects, manage <br /> shifting properties, and get work done.</p>
+  <button className='button'>Get More<GoArrowUpRight style={{ color: '#fff', fontSize: '1em', marginLeft: '10px' }} /></button>
+</div>
 
         <div className="balls">
         <div className="skill-bars">

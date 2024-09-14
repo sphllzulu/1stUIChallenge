@@ -6,11 +6,11 @@
     box-sizing:initial;
 }   */
 body{
-    background-color:#D3D3D3;
+    background-color:pink;
     display: flex;
     justify-content:center;
     font-family: Outfit;
-    /* height: 100vh; */
+
     
 }
 .container{
@@ -25,7 +25,7 @@ body{
 .left-right{
     display: flex;
     justify-content:space-around;
-    gap: 30px;
+    gap: 0px;
     margin-top: 10px;
     /* padding: 40px; */
 }
