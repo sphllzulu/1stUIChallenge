@@ -22,6 +22,15 @@ This project is a simple React application created using Vite, where the goal wa
 - Responsive design to ensure the layout adapts to different screen sizes.
 - Clean and maintainable code structure.
 
+## Features
+![ui](https://github.com/user-attachments/assets/6224a614-8c8c-45e8-8970-5a47622c2e36)
+
+## Features
+
+- Mimic a photo using React components and CSS.
+- Responsive design to ensure the layout adapts to different screen sizes.
+- Clean and maintainable code structure.
+
 ## Technologies Used
 
 - **React**: A JavaScript library for building user interfaces.
@@ -53,7 +62,7 @@ To run this project locally, follow these steps:
    ```
 
 5. **Open the project in your browser**:
-   Visit `http://localhost:3000` in your browser to see the mimic project.
+   Visit `http://localhost:5173` in your browser to see the mimic project.
 
 ## Usage
 
@@ -79,10 +88,6 @@ mimic-project/
 ├── README.md
 └── vite.config.js
 ```
-
-## Screenshots
-
-
 
 ## Contributing
 
