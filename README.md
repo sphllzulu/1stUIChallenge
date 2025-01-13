@@ -25,6 +25,10 @@ This project is a simple React application created using Vite, where the goal wa
 ## Screenshot
 ![ui](https://github.com/user-attachments/assets/6224a614-8c8c-45e8-8970-5a47622c2e36)
 
+## My design
+![ui](https://github.com/user-attachments/assets/dd242451-1b28-4abf-add1-266ac7f0a4ad)
+
+
 ## Features
 
 - Mimic a photo using React components and CSS.
