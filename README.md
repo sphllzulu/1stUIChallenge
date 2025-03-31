@@ -3,7 +3,9 @@
 
 This is a React application built with Vite that successfully mimics the design shown in the reference image. The project demonstrates responsive web design skills, component-based architecture, and CSS styling techniques.
 
+## Original Design
 ![Original Design](https://github.com/user-attachments/assets/6224a614-8c8c-45e8-8970-5a47622c2e36)
+## My implementation
 ![My Implementation](https://github.com/user-attachments/assets/dd242451-1b28-4abf-add1-266ac7f0a4ad)
 
 ## Features
