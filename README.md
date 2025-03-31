@@ -5,17 +5,6 @@
 
 This project is a simple React application created using Vite, where the goal was to mimic a given photo. The project demonstrates the use of React components, CSS styling, and responsive design techniques to replicate the visual aspects of the photo as closely as possible.
 
-## Table of Contents
-
-- [Overview](#overview)
-- [Features](#features)
-- [Technologies Used](#technologies-used)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Project Structure](#project-structure)
-- [Screenshots](#screenshots)
-- [Contributing](#contributing)
-
 ## Features
 
 - Mimic a photo using React components and CSS.
